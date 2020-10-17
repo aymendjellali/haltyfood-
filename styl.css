@@ -1,0 +1,126 @@
+* {
+    margin-top:0;
+    margin-bottom: 30px;   
+     padding: 0;
+    box-sizing: border-box ;
+}
+ html
+{
+color: #555555;
+font-family: 'Cairo', sans-serif;
+font: width 400
+font-size: 20px;;
+}
+
+.row {
+    max-width: 1300px ;
+    margin:0 auto;
+}
+section {
+    padding: 100px;
+}
+  header {
+      background-image: linear-gradient(rgba(255, 255, 255, 0.651),rgba(255, 255, 255, 0.658) ), url(../img/pexels-ella-olsson-1640774.jpg);
+      background-size: cover;
+      height: 100vh;
+  }
+  h1,li{
+     
+    margin:0px;
+    
+}    
+ h2{
+     font-size: 50px;
+     font-weight: 20 px;
+     text-align: center;
+ }
+
+ 
+ 
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size:  80%;
+    border-radius: 5px;
+}   
+ .btn-ful{
+     background-color:rgb(66, 150, 136);
+     margin-left: 30px;
+     color: white;
+ }
+ .btn-border{
+border :1px solid white ;
+ color: rgb(66, 150, 136);
+ }
+
+ .btn-border:hover{   
+     background-color:rgb(66, 150, 136) ;
+     color:white } 
+
+ .logo {
+         width: 250px;
+         height:auto;
+         float: left;
+ }
+.main-nav {
+    float:right;
+    list-style: none;
+    margin: 50px;
+}    
+.main-nav li {
+    display:inline-block ;
+    margin-left: 20px;
+    
+}
+.main-nav li :hover{
+
+    border-bottom:3px  solid rgb(66, 150, 136) ;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #555555;
+
+}
+.cards{
+    display:flex;
+  justify-content: space-between;
+}
+.card{
+    width: 22%;
+}
+.card ion-icon
+  {
+     width: 50px; 
+height:50px ;
+color: rgb(66, 150, 136);
+  }
+  .meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    opacity: 0.7;
+}
+
+.meal-photo img:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.section-meals {
+    padding: 0;
+}
+    .meals-showcase li {
+        display: block;
+        float: left;
+        width: 25%;
+    }
